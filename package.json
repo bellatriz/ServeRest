@@ -36,7 +36,7 @@
     "test:mutation:diff": "stryker-diff-runner --path ./test/stryker.conf.js --branch trunk",
     "test:unit": "nyc --report-dir ./coverage-unit --check-coverage false mocha --config test/unit/.mocharc.js",
     "test:integration": "nyc --report-dir ./coverage-integration mocha --config test/integration/.mocharc.js",
-    "test:e2e": "mocha --config test/integration/.mocharc.js --fgrep @skipE2E --invert",
+    "test:e2e": "mocha --config test/integration/.mocharc.js --fgrep @skipE2E --invert --reporter mocha-allure-reporter",
     "test:smoke": "mocha --config test/integration/.mocharc.js --grep @smokeE2E",
     "merge-lcov": "npx lcov-result-merger@3.1.0 'coverage-**/lcov.info' 'lcov.info'",
     "lint": "standard",
@@ -63,7 +63,8 @@
     "open": "^8.0.6",
     "rate-limiter-flexible": "^2.3.1",
     "swagger-ui-express": "^4.1.4",
-    "yargs": "^16.2.0"
+    "yargs": "^16.2.0",
+    "zally-web-ui": "^0.1.1"
   },
   "devDependencies": {
     "@codedependant/semantic-release-docker": "^4.3.0",
@@ -85,7 +86,8 @@
     "faker": "^5.5.3",
     "husky": "^6.0.0",
     "lint-staged": "^10.5.4",
-    "mocha": "^8.3.2",
+    "mocha": "^8.4.0",
+    "mocha-allure-reporter": "^1.4.0",
     "nock": "^13.1.3",
     "nodemon": "^2.0.7",
     "nyc": "^15.1.0",

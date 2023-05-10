@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-node-api
+  annotations:
+    github.com/project-slug: bellatriz/ServeRest
+    sonarqube.org/project-key: bellatriz_ServeRest
+spec:
+  type: other
+  lifecycle: unknown
+  owner: backstage

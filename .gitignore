@@ -11,6 +11,7 @@ coverage-integration/
 node_modules/
 reports/
 coverage.lcov
+allure-results/
 
 ## Mac crap
 .DS_Store
