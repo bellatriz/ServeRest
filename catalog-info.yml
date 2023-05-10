@@ -5,7 +5,6 @@ metadata:
   annotations:
     github.com/project-slug: bellatriz/ServeRest
     sonarqube.org/project-key: bellatriz_ServeRest
-    qameta.io/allure-project: http://127.0.1.1:34149/
 spec:
   type: openapi
   lifecycle: production
