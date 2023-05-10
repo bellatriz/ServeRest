@@ -10,6 +10,9 @@ spec:
   lifecycle: production
   owner: team-a
   definition: |
-    swagger: "2.0"
+    swagger: "2.0.0"
+    info:
+      version: 1.0.0
+      title: Swagger Serverest
     servers:
       - url: https://serverest.dev/
