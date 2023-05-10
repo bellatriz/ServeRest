@@ -9,7 +9,7 @@ spec:
   type: openapi
   lifecycle: production
   owner: team-a
-  definition: >
-    openapi: 3.0.1
+  definition: 
+    swagger: "2.0"
     servers:
       - url: https://serverest.dev/
