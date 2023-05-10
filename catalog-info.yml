@@ -1,10 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: my-node-api
+  name: serverest
   annotations:
     github.com/project-slug: bellatriz/ServeRest
     sonarqube.org/project-key: bellatriz_ServeRest
+    qameta.io/allure-project: serverest
 spec:
   type: other
   lifecycle: unknown
