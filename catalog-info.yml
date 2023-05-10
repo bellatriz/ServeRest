@@ -12,7 +12,7 @@ spec:
   definition: |
     swagger: "2.0.0"
     info:
-      version: 1.0.0
+      version: 2.26.11
       title: Swagger Serverest
     servers:
       - url: https://serverest.dev/
