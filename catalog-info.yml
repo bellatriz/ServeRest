@@ -5,6 +5,7 @@ metadata:
   annotations:
     github.com/project-slug: bellatriz/ServeRest
     sonarqube.org/project-key: bellatriz_ServeRest
+    backstage.io/spectral-ruleset-url: docs/swagger.json
 spec:
   type: openapi
   lifecycle: production
