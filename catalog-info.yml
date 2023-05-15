@@ -5,7 +5,7 @@ metadata:
   annotations:
     github.com/project-slug: bellatriz/ServeRest
     sonarqube.org/project-key: bellatriz_ServeRest
-    backstage.io/spectral-ruleset-url: .eslintrc.json
+    backstage.io/spectral-ruleset-url: https://github.com/bellatriz/ServeRest/blob/trunk/.eslintrc
 spec:
   type: openapi
   lifecycle: production
