@@ -30,6 +30,8 @@ app.use(queryParser())
 app.use(timeout())
 app.use(cors())
 
+let variavel;
+
 /* istanbul ignore next */
 if (!ehAmbienteDeTestes) {
   app.use(rateLimiter)
